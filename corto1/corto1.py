@@ -6,9 +6,9 @@ def Secuencia(N):
                 num = [numero/2]
                 collatz = [] + num
             else:
-                num2 = [3*n + 1]
+                num2 = [3*numero + 1]
                 collatz = [] + num2
-                print collatz
+                print (collatz)
     
     return N
 
